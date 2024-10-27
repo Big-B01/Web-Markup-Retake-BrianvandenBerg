@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./images/Favicon.png">
+        <title>Zandvoort guide</title>
+        <meta name="author" content="Brian van den Berg">
+        
+    </head>
+    <body class = "contact">
+        <header class = "site_header contact">
+            <section class = "header_sections">
+                <a href="index.html"><img src="./images/logov1.png" alt="website logo" title="a simplistic logo" class = "logo" ></a>
+                <h5 class ="website_title"><a href = "index.html">Zandvoort guide</a></h5>
+            </section>
+            <nav class = "header_sections"> 
+                <h5><a href ="Entertainment.html">Entertainment</a></h5>
+                <h5><a href = "Food.html">Food</a></h5>
+                <h5><a href = "Clothes.html">Clothes</a></h5>
+                <h5><a href = "Cleaners.html">Cleaners</a></h5>
+                <h5><a href = "Contact.html" class = "underline">Contact us</a></h5>
+            </nav>
+        </header>
+
+        <form action = "redirect.html" class = "contact">
+            <fieldset class = "personal_details">
+                <legend>Personal details</legend>
+                <section class = "text_section">
+                    <label for = "name">Name*:</label>
+                    <input type="text" id="name" name = "name">
+                </section>
+                <section class = "gender_section">
+                    <label>Gender*:</label>
+                    <input type="radio" id="male" name = "gender" value = "Male">
+                    <label for = "male">Male</label>
+                    <input type="radio" id="female" name = "gender" value = "Female">
+                    <label for = "female">Female</label>
+                </section>
+                <section class = "text_section">
+                    <label for = "email">Email*:</label>
+                    <input type="email" id="email" name = "email">
+                </section>
+                <section class = "text_section">
+                    <label for = "phone">Phone number:</label>
+                    <input type="tel" id="phone" name = "phone">
+                </section>
+            </fieldset>
+            <section class="comment">
+                <label for="comment">write your message to the sites staff</label>
+                <textarea id="comment" name="comment"></textarea>
+                <input type="submit">
+            </section>
+
+        </form>
+
+        <footer>
+            <p><a href="index.html" class = "underline" >&#169;ZandvoortGuide.com</a></p>
+            <p id ="Cookies"><a href = "Contact.html" class =  "underline">Contact us</a></p>
+        </footer>
+    </body>
+</html>
